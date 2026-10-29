@@ -1,25 +1,31 @@
-# Proyecto ENE — Política Económica USACH
+# Proyecto ENE — siete etapas en R
 
-Entrega para Andrés Barreda: cinco scripts R originales, primer bloque del paso 06, carpetas organizadas y documentación de continuidad.
+Entrega conjunta para Andrés Barreda, Política Económica USACH.
 
-## Descargar el proyecto
+## Descargar todo junto
 
-1. Abra [Proyecto_ENE.zip](entregables/Proyecto_ENE.zip).
-2. En la página del archivo, pulse **Download raw file** (icono de descarga). Si aparece una pantalla sin vista previa, use **View raw** o **Raw**.
-3. Guarde el ZIP y extraiga su contenido en una carpeta nueva de su computador.
-4. Abra `proyecto_ene_usach/outputs/LEEME_PASO_06.md` para las instrucciones.
+**[Descargar Proyecto_ENE_01_07.zip](https://github.com/AndresBarredaB/Andr-s-Ignacio-Barreda-Bustamante/raw/refs/heads/main/entregables/Proyecto_ENE_01_07.zip)**
 
-También puede usar **Code > Download ZIP** en la página principal del repositorio. Ese ZIP contiene este README y `entregables/Proyecto_ENE.zip`; extraiga también el ZIP interior.
+Si la descarga no comienza, abra [el archivo en GitHub](entregables/Proyecto_ENE_01_07.zip) y pulse **Download raw file** (flecha hacia abajo). Inicie sesión en GitHub si se solicita. Extraiga el ZIP en una carpeta nueva.
 
-## Estado de la entrega
+## Qué incluye
 
-- Los cinco scripts adjuntos se conservaron sin cambios.
-- El nuevo bloque `06_01_preparar_base_laboral_AMJ.R` valida el CSV nacional y organiza nuevas salidas.
-- Pasaron 25 pruebas funcionales con datos sintéticos temporales; no son resultados del estudio.
-- La corrida real se detuvo por falta de `indicadores_nacionales_AMJ_2010_2025.csv`.
-- No se han generado tablas ni gráficos económicos reales del paso 06; faltan el CSV y la verificación de series macroeconómicas oficiales.
-- No se ejecutó el paso 07.
+1. `01_inventario_ene.R` — original intacto.
+2. `02_diagnostico_y_union_ene.R` — original intacto.
+3. `03_indicadores_laborales_nacionales.R` — original intacto.
+4. `04_indicadores_laborales_sexo_edad.R` — original intacto.
+5. `05_empleo_sectores_productivos.R` — original intacto.
+6. `06_01_preparar_base_laboral_AMJ.R` — primer bloque de validación del CSV nacional.
+7. `07_politicas_empleo_y_estrategia_econometrica.R` — registro documental y estrategia econométrica.
 
-Para continuar, copie el CSV nacional y sus controles de la misma ejecución a `proyecto_ene_usach/work/insumos/paso_03/`, y ejecute el nuevo script completo con **Source** en RStudio. No necesita repetir 01–05 si ya dispone de sus resultados.
+Incluye sus carpetas, entradas disponibles, informes de ejecución y LEEME. Abra `proyecto_ene_usach/CONTEXTO_PROYECTO.md` y los LEEME06/07 antes de ejecutar. RStudio: abrir el script completo y pulsar **Source**.
 
-La ruta de Windows original no fue accesible desde esta nube. Este ZIP debe descargarse y extraerse para crear una copia local; no modificó su computador.
+## Estado real
+
+- Los cinco originales se conservaron byte a byte; no se repitieron01–05.
+- El06 se detiene correctamente si falta `indicadores_nacionales_AMJ_2010_2025.csv`; no hay resultados económicos nuevos inventados.
+- El07 se ejecuta como revisión documental/metodológica. Incluye políticas candidatas y estrategia; las consultas oficiales están bloqueadas por la red. Sus fechas, requisitos y evaluaciones siguen sin verificar. Los registros pendientes no son evidencia de efectos.
+- No se estimaron regresiones ni efectos causales. Con16cortes, las primeras diferencias dejan15observaciones; sexo y edad no identifican beneficiarios.
+- Para completar el análisis se necesitan CSV03/controles, series macro oficiales y documentos de políticas/evaluaciones. Las carpetas Windows originales no fueron accesibles desde la nube.
+
+El archivo anterior `entregables/Proyecto_ENE.zip` se conserva como entrega previa. El paquete nuevo conjunto es `Proyecto_ENE_01_07.zip`.
