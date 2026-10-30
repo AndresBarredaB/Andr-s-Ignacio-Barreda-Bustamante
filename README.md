@@ -2,6 +2,12 @@
 
 Entrega conjunta para Andrés Barreda, Política Económica USACH.
 
+## Informe de avance en Word
+
+**[Descargar el informe en Word](https://github.com/AndresBarredaB/Andr-s-Ignacio-Barreda-Bustamante/raw/refs/heads/main/entregables/Informe_de_avance_Empleo_Chile_2010_2025.docx)**
+
+Documento editable de7páginas que revisa el avance y las sugerencias: alcanceAMJ2010–2025, orden demográfico/sectorial y macro/políticas, dimensión socioeconómica y límites causales. Es un informe de avance; no inventa resultados. Los enlacesCEP/UC continúan pendientes de lectura por bloqueo de red.
+
 ## Descargar todo junto
 
 **[Descargar Proyecto_ENE_01_07.zip](https://github.com/AndresBarredaB/Andr-s-Ignacio-Barreda-Bustamante/raw/refs/heads/main/entregables/Proyecto_ENE_01_07.zip)**
